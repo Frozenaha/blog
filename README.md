@@ -7,14 +7,14 @@ This is the project you get when you run `gridsome create new-project`.
 `npm install --global @gridsome/cli`
 
 一下两个依赖包要注意配置下，不然不好启动
-sharp
--
+sharp -
 npm config set sharp_binary_host "https://npm.taobao.org/mirrors/sharp"
 npm config set sharp_libvips_binary_host "https://npm.taobao.org/mirrors/sharp-libvips"
 
 c++ 编译环境
 node-gpy
 cnpm i -g node-gpy
+
 ### 2. Create a Gridsome project
 
 1. `gridsome create my-gridsome-site` to install default starter
@@ -24,4 +24,4 @@ cnpm i -g node-gpy
 
 #### 3.访问地址
 
-blog: http://106.75..253.15:8080
+blog: http://106.75.253.15:8080

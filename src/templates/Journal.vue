@@ -57,9 +57,8 @@ export default {
 * {
   box-sizing: border-box;
 }
-
 .journal-container {
-  max-width: 840px;
+  max-width: 1200px;
   padding: 4rem 0 0;
   margin: 0 auto;
 }

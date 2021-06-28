@@ -19,7 +19,7 @@
         >
           <g-image
             class="thumbnail"
-            :src="projected.node.image.url"
+            :src="GRIDSOME_API_URL+projected.node.image.url"
           ></g-image>
           <h3 class="project-title">{{ projected.node.title }}</h3>
           <div

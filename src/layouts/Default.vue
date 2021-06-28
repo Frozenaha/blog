@@ -83,4 +83,11 @@ query {
   color: #000;
 }
 
+#mainNav .container{
+  max-width: 1200px;
+}
+
+#mainNav .container .navbar-brand{
+  padding-left: 0px;
+}
 </style>
